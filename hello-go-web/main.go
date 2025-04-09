@@ -7,7 +7,7 @@ import (
 
 func handler(w http.ResponseWriter, r *http.Request) {
 	tmpl := template.Must(template.ParseFiles("templates/index.html"))
-	tmpl.Execute(w, "Truy cập github của tôi ở bên dưới")
+	tmpl.Execute(w, "Truy cập github")
 }
 
 func main() {
